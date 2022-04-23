@@ -1,0 +1,23 @@
+.nav-list {
+  margin-top: 6rem;
+}
+
+.nav-list-item {
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.nav-list-item:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.nav-list-item:hover p {
+  margin-left: 2rem;
+  color: #121212 !important;
+}
+
+.nav-list-item .log-out-btn {
+  color: red !important;
+}
+/*# sourceMappingURL=NavList.module.css.map */

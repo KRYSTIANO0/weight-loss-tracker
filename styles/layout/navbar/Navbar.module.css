@@ -1,0 +1,41 @@
+.main-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 50%;
+  z-index: 20;
+  border-left: solid 1px #00df9a;
+  background-color: #121212;
+}
+
+.main-nav .close-btn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.main-nav .socials {
+  position: absolute;
+  bottom: 15px;
+  left: 25%;
+}
+/*# sourceMappingURL=Navbar.module.css.map */

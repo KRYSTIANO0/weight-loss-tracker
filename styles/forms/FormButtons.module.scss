@@ -1,0 +1,24 @@
+.form-button {
+	padding: 0 1rem;
+	border-radius: 5px;
+	&.active {
+		border: solid 1px #00df9a;
+		&:hover {
+			cursor: pointer;
+			background-color: #00df9a;
+			p {
+				color: #121212;
+			}
+		}
+	}
+	&.disactive {
+		p {
+			color: #00df9823 !important;
+		}
+		border: solid 1px #00df9823;
+		&:hover {
+			cursor: default;
+		}
+	}
+	
+}

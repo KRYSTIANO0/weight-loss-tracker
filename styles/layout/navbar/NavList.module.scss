@@ -1,0 +1,18 @@
+.nav-list {
+	margin-top: 6rem;
+}
+.nav-list-item {
+	padding: 2rem;
+	font-size: 3rem;
+	&:hover {
+		background-color: white;
+		cursor: pointer;
+		p {
+			margin-left: 2rem;
+			color: #121212 !important;
+		}
+	}
+	.log-out-btn {
+		color: red !important;
+	}
+}

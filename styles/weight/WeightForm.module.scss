@@ -1,0 +1,30 @@
+.weight-form {
+	text-align: center;
+	.input {
+		text-align: center;
+		width: 100%;
+		padding: 1rem;
+		color: white !important;
+		border-bottom: gray 1px solid;
+		-webkit-appearance: none;
+	}
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+	input[type='number'] {
+		-moz-appearance: textfield;
+	}
+	.weight-add-btn {
+		width: 100%;
+		margin: 2rem 0;
+		padding: 1rem;
+		border: 1px solid;
+		&:hover {
+			cursor: pointer;
+			background-color: #00df9a;
+			color: #121212 !important;
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACjB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;EAC9B,OAAO,EAAE,MAAM;CAWf;;AAfD,AAKC,iBALgB,CAKhB,IAAI,CAAC;EACJ,SAAS,EAAE,IAAI;CACf;;AAPF,AAQC,iBARgB,CAQhB,WAAW,CAAC;EACX,KAAK,EAAE,sBAAsB;CAK7B;;AAdF,AAUE,iBAVe,CAQhB,WAAW,AAET,MAAM,CAAC;EACP,MAAM,EAAE,OAAO;EACf,KAAK,EAAE,GAAG;CACV",
+    "sources": [
+        "SingleWeightData.module.scss"
+    ],
+    "names": [],
+    "file": "SingleWeightData.module.css"
+}

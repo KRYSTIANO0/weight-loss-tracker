@@ -1,0 +1,29 @@
+.main-nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 50%;
+  z-index: 20;
+  border-left: solid 1px #00df9a;
+  background-color: #121212;
+}
+
+.main-nav .close-btn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.main-nav .socials {
+  position: absolute;
+  bottom: 15px;
+  left: 25%;
+}
+
+@media (min-width: 1000px) {
+  .main-nav {
+    left: 160rem;
+  }
+}
+/*# sourceMappingURL=Navigation.module.css.map */

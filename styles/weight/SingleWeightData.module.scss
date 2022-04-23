@@ -1,0 +1,16 @@
+.weight-data-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 0;
+	.box {
+		font-size: 2rem;
+	}
+	.delete-btn {
+		color: rgba(255, 0, 0, 0.267);
+		&:hover {
+			cursor: pointer;
+			color: red;
+		}
+	}
+}

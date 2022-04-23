@@ -1,0 +1,30 @@
+.form-button {
+  padding: 0 1rem;
+  border-radius: 5px;
+}
+
+.form-button.active {
+  border: solid 1px #00df9a;
+}
+
+.form-button.active:hover {
+  cursor: pointer;
+  background-color: #00df9a;
+}
+
+.form-button.active:hover p {
+  color: #121212;
+}
+
+.form-button.disactive {
+  border: solid 1px #00df9823;
+}
+
+.form-button.disactive p {
+  color: #00df9823 !important;
+}
+
+.form-button.disactive:hover {
+  cursor: default;
+}
+/*# sourceMappingURL=FormButtons.module.css.map */

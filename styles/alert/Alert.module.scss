@@ -1,0 +1,11 @@
+.alerts {
+	position: fixed;
+	width: auto;
+	z-index: 30;
+	right: 15px;
+	bottom: 15px;
+	button {
+		background-color: white;
+		padding: 2rem;
+	}
+}

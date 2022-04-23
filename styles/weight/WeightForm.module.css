@@ -1,0 +1,36 @@
+.weight-form {
+  text-align: center;
+}
+
+.weight-form .input {
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  color: white !important;
+  border-bottom: gray 1px solid;
+  -webkit-appearance: none;
+}
+
+.weight-form input::-webkit-outer-spin-button,
+.weight-form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.weight-form input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.weight-form .weight-add-btn {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid;
+}
+
+.weight-form .weight-add-btn:hover {
+  cursor: pointer;
+  background-color: #00df9a;
+  color: #121212 !important;
+}
+/*# sourceMappingURL=WeightForm.module.css.map */

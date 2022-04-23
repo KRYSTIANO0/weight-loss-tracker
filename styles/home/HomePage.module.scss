@@ -1,0 +1,43 @@
+.home-section {
+	.content {
+		.description {
+			font-size: 1.5rem;
+		}
+	}
+	.circle {
+		position: fixed;
+		top: 0;
+		left: 50%;
+		width: 100%;
+		height: 90vh;
+		transform: translate(-50%, 0);
+		clip-path: polygon(44.5% 100%, 55.5% 100%, 55.5% 100%, 44.5% 100%);
+
+		background: rgba(255, 255, 255, 0.1);
+		.lighton-content {
+			position: absolute;
+			text-align: center;
+			border-radius: 50%;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			.daschboard-icon {
+				color: white;
+				font-size: 15rem;
+			}
+		}
+
+		&.active {
+			clip-path: polygon(-50% 0, 150% 0, 55.5% 100%, 44.5% 100%);
+		}
+	}
+	.flashlight {
+		position: fixed;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%, 0);
+		color: #00df9a;
+		margin-bottom: -4rem;
+		font-size: 12rem;
+	}
+}

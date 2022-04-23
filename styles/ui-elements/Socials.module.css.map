@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACC,YADW,CACX,iBAAiB,CAAC;EACjB,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,QAAQ;EAChB,UAAU,EAAE,YAAY;CACxB",
+    "sources": [
+        "Socials.module.scss"
+    ],
+    "names": [],
+    "file": "Socials.module.css"
+}

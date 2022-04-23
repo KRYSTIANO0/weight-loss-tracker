@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEE,gBAFc,CACf,UAAU,CACT,MAAM,CAAC;EACN,SAAS,EAAE,MAAM;CACjB",
+    "sources": [
+        "ProfilePage.module.scss"
+    ],
+    "names": [],
+    "file": "ProfilePage.module.css"
+}

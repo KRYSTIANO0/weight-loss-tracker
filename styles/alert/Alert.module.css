@@ -1,0 +1,13 @@
+.alerts {
+  position: fixed;
+  width: auto;
+  z-index: 30;
+  right: 15px;
+  bottom: 15px;
+}
+
+.alerts button {
+  background-color: white;
+  padding: 2rem;
+}
+/*# sourceMappingURL=Alert.module.css.map */
