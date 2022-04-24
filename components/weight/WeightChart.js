@@ -11,6 +11,7 @@ export default function WeightChart() {
 	const userDestination = useSelector(state => state.weight.userDestination)
 	console.log(userWeightData)
 	const formatDate = dateString => {
+		console.log(dateString)
 		return moment(dateString, 'YYYY-MM-DD').toDate()
 	}
 	const data = {
