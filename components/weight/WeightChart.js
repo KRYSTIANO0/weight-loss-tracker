@@ -4,12 +4,17 @@ import 'chartjs-adapter-moment'
 import { Chart as ChartJS } from 'chart.js/auto'
 //redux
 import { useSelector } from 'react-redux'
+import moment from 'moment'
 export default function WeightChart() {
 	//weight data
 	const userWeightData = useSelector(state => state.weight.userWeightData)
 	const userDestination = useSelector(state => state.weight.userDestination)
+	console.log(userWeightData)
+	const formatDate = dateString => {
+		return moment(dateString, 'YYYY-MM-DD').toDate()
+	}
 	const data = {
-		labels: userWeightData.map(data => data.date),
+		labels: userWeightData.map(data => formatDate(data.date)),
 		datasets: [
 			{
 				label: 'WEIGHT',
