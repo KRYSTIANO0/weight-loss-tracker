@@ -1,7 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## About Weight Tracker
-
 
 While developing the Weight tracker, I expanded my skills to include
 charting support. I used ChartJS for this purpose. Users can add their
